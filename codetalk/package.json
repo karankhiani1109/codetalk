@@ -1,0 +1,32 @@
+{
+  "name": "code-talk",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "circular-json": "^0.5.9",
+    "cookie-parser": "~1.4.4",
+    "cookie-session": "^1.4.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.15.1",
+    "express-validator": "^3.1.2",
+    "hbs": "^4.1.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongodb": "^3.5.3",
+    "mongoose": "^5.8.12",
+    "nodemailer": "^3.1.5",
+    "nodemon": "^2.0.4",
+    "ot": "git+https://github.com/Operational-Transformation/ot.js.git",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.3.0",
+    "stable": "^0.1.8"
+  }
+}
